@@ -1,0 +1,36 @@
+JavaScript Engine uses a parser
+    parser -> Conversion to Machine Code -> Code runs
+    
+    
+   Execution context - a box, a container, or a wrapper which stoes variables and in which a piece of our code is evaluated and executed.
+   
+Execution stack
+   
+var name = 'John';
+   
+ function first() {
+    // code
+}
+    
+
+function second() {
+    // code
+}
+       
+
+function third() {
+    // code
+}
+    
+first();
+
+
+ exec stack 
+ -------------
+ first
+ global
+    
+    
+    
+    
+    
